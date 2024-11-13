@@ -1,0 +1,9 @@
+[submodule "FlatRedBall"]
+	path = FlatRedBall
+	url = https://github.com/vchelaru/FlatRedBall.git
+[submodule "FNA"]
+	path = FNA
+	url = https://github.com/FNA-XNA/FNA
+[submodule "Gum"]
+	path = Gum
+	url = https://github.com/vchelaru/Gum.git

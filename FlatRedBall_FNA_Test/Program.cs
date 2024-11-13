@@ -14,7 +14,10 @@ namespace FlatRedBall_FNA_Test
         [STAThread]
         static void Main(string[] args)
         {
-            using (var game = new Game1())
+			// as of this writing, SDL3 support is still new, so we need to do this
+			Environment.SetEnvironmentVariable("FNA_PLATFORM_BACKEND", "SDL3");
+
+			using (var game = new Game1())
             {
                 var byEditor = args.Contains("LaunchedByEditor");
 

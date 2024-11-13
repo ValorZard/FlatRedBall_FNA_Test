@@ -27,7 +27,7 @@ namespace FlatRedBall_FNA_Test
 
         public Game1() : base()
         {
-            graphics = new GraphicsDeviceManager(this);
+			graphics = new GraphicsDeviceManager(this);
 
 #if  ANDROID || IOS
             graphics.IsFullScreen = true;
